@@ -1,4 +1,6 @@
-
+html {
+  font-size: 20px
+}
 tr:nth-child(odd) {
   background-color: white;
 }
@@ -6,8 +8,14 @@ tr:nth-child(even) {
   background-color: #ebf5fd;
 }
 
-table .table-head {
+table th {
   background-color: #67afe6;
+  color: white;
+  text-align: center;
+}
+
+#share {
+  background-color: black;
   color: white;
   text-align: center;
 }
