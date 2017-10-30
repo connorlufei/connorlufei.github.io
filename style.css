@@ -21,3 +21,10 @@ table th {
 table {
 
 }
+.image-wrapper {
+  width:100%;
+}
+img {
+  margin:0 auto;
+  display: block;
+}
